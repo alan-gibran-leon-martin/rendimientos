@@ -1,7 +1,7 @@
 #Rendimientos para fondo de inversiòn
 import pandas as pd
 import statistics as sts
-rendimientos = pd.read_csv("C:/Users/zaira/Desktop/alan/series_temporales/rendimientos.csv")
+rendimientos = pd.read_csv("./rendimientos.csv")
 vacia= [0]
 fecha= rendimientos.columns[0]
 fecha = pd.to_datetime (rendimientos[fecha])
